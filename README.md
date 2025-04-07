@@ -1,19 +1,72 @@
-# Wine-Quality-Prediction
-It is a Machine Learning Model used to predict wine quality using linear regression only.
-The following code has been performed on Jupyter Notebook.
-Here's a brief overview of the libraries I used in this project, which played a crucial role in its success:
-<br>
-1. NumPy: This fundamental library for numerical computing allowed me to efficiently work with large datasets and perform various mathematical operations.
-   
-2. Pandas: Pandas was my go-to for data manipulation and analysis. It made handling and cleaning the dataset a breeze, enabling me to extract meaningful insights.
-   
-3. Matplotlib: Matplotlib helped me visualize the data, making it easier to understand trends, patterns, and correlations. Clear and informative visualizations were key to this project's success.
-   
-4. Scikit-Learn: This machine learning library provided a wide range of tools for modeling and evaluating predictive algorithms. I used various regression models to predict house prices accurately.
-   
-5. Jupyter Notebook: Jupyter Notebook served as my interactive coding environment, allowing me to document my work step by step and share it with my team.
+# 🍷 Wine Quality Prediction
 
-6. Sklearn: Simple and efficient tools for data mining and data analysis. It provides various supervised and unsupervised learning algorithms, including classification, regression, clustering, dimensionality reduction, model selection, and pre-processing.
+This project develops a machine learning model to predict wine quality using linear regression. The implementation is performed in a Jupyter Notebook.
 
-7. Seaborn: High-level abstractions for structuring multi-plot grids that let you easily build complex visualizations. Specialized support for using categorical variables to show observations or aggregate statistics. Functions for visualizing univariate and bivariate distributions and for comparing them between subsets of data. 
-</br>
+## 📋 Project Overview
+
+The primary objectives of this project are:
+
+- To predict wine quality based on physicochemical attributes.
+- To utilize linear regression for predictive modeling.
+- To implement the solution using Python and Jupyter Notebook.
+
+## 🛠️ Features
+
+- **Data Analysis**: Utilizes pandas for data manipulation and analysis.
+- **Data Visualization**: Employs matplotlib for visualizing data distributions and relationships.
+- **Predictive Modeling**: Implements linear regression using scikit-learn to predict wine quality.
+
+## 🗂️ Project Structure
+
+```
+Wine-Quality-Prediction/
+├── Wine-Quality-Prediction.ipynb  # Jupyter Notebook with implementation
+├── winequality-red.csv            # Dataset containing wine quality data
+└── README.md                      # Project documentation
+```
+
+## 🔧 Installation
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/TanishaVerma-08/Wine-Quallity-Prediction.git
+   ```
+
+2. **Navigate to the project directory**:
+
+   ```bash
+   cd Wine-Quallity-Prediction
+   ```
+
+3. **Install the required packages**:
+
+   Ensure you have Python and Jupyter Notebook installed. Then, install the necessary libraries:
+
+   ```bash
+   pip install numpy pandas matplotlib scikit-learn
+   ```
+
+## 🚀 Usage
+
+1. **Open the Jupyter Notebook**:
+
+   Launch Jupyter Notebook:
+
+   ```bash
+   jupyter notebook
+   ```
+
+   Then, open the `Wine-Quality-Prediction.ipynb` file.
+
+2. **Run the Notebook**:
+
+   Execute the cells in the notebook to load the data, perform data analysis, visualize data distributions, and build the linear regression model to predict wine quality.
+
+## 📝 Dataset
+
+The `winequality-red.csv` file contains the dataset used for this project. Ensure this file is present in the project directory before running the notebook.
+
+## ⚠️ Note
+
+The project focuses on red wine quality prediction. Ensure that the dataset (`winequality-red.csv`) is correctly formatted and contains the necessary data for the notebook to function effectively.
